@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
 
 const schema = mongoose.Schema({
-
-    path : String
+    date: String,
+    name : String,
+    path: String
 })
 
 module.exports = mongoose.model('Picture', schema);
